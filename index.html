@@ -16,7 +16,7 @@
             background-color: rgb(37, 37, 37);
             background-image: url(imagens/google-image.png);
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center 230px;
             margin: auto;
         }
 
@@ -25,25 +25,92 @@
             padding: 20px 60px 0px 0px;
         }
 
-        nav > a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
+        main {
+            min-width: 300px;
+            max-width: 500px;
+            margin: auto;
+            margin-top: 390px;
+            padding-left: 40px;
         }
 
-        nav > a:hover {
+        main a {
+            margin: 50px;
+            background-color: rgb(0, 0, 0);
+            box-shadow: 0px 0px 10px black;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        p {
+            color: white;
+            padding: 15px 15px 15px 15px;
+            border: 1px solid black;
+        }
+
+        a {
+            color: white;
+            padding: 15px 15px 15px 15px;
+            text-decoration: none;
+        }
+        
+        a:hover {
             color: white;
             text-decoration: underline;
         }
 
+        footer {
+            padding: 0px 0px 15px 0px;
+            margin: 494px 0px 0px 0px;
+            border: 3px solid rgb(37, 37, 37);
+            background-color: rgba(0, 0, 0, 0.808);
+        }
+        
+        div {
+            width: 359px;
+            margin: auto;
+            margin-top: -100px;
+        }
 
-
+        #txtBusca{
+            float:left;
+            background-color: black;
+            padding-left:5px;
+            font-style:italic;
+            font-size:18px;
+            box-shadow: 0px 0px 3px black;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            height:32px;
+            width: 369px;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="#" class="superior">Gmail</a>
-        <a href="#" class="superior">Imagens</a>
+        <a href="#">Gmail</a>
+        <a href="#">Imagens</a>
     </nav>
+    <main>
+        <a href="#">Pesquisa Google</a>
+        <a href="#">Estou com Sorte</a>
+    </main>
+    <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Pesquisar"/>
+    </div>
+    <footer>
+        <p>Brasil</p>
+        <br>
+        <a href="#">Sobre</a>
+        <a href="#">Publicidade</a>
+        <a href="#">Negócios</a>
+        <a href="#" style="padding: 0px 1100px 0px 15px;">Como funciona a Pesquisa</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Configurações</a>
+    </footer>
 </body>
 </html>
