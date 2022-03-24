@@ -12,6 +12,7 @@
         }
 
         body {
+            font-family: Arial, Helvetica, sans-serif;
             height: 98vh;
             background-color: rgb(37, 37, 37);
             background-image: url(imagens/google-image.png);
@@ -30,12 +31,11 @@
             max-width: 500px;
             margin: auto;
             margin-top: 390px;
-            padding-left: 40px;
         }
 
         main a {
-            margin: 50px;
-            background-color: rgb(0, 0, 0);
+            margin: 45px;
+            background-color: rgba(0, 0, 0, 0.521);
             box-shadow: 0px 0px 10px black;
             border-bottom-left-radius: 10px;
             border-top-left-radius: 10px;
@@ -64,7 +64,13 @@
             padding: 0px 0px 15px 0px;
             margin: 494px 0px 0px 0px;
             border: 3px solid rgb(37, 37, 37);
-            background-color: rgba(0, 0, 0, 0.808);
+            background-color: rgba(0, 0, 0, 0.521);
+        }
+
+        footer div {   
+            display: inline-block;
+            text-align: right;
+            margin-left: 900px;
         }
         
         div {
@@ -75,7 +81,7 @@
 
         #txtBusca{
             float:left;
-            background-color: black;
+            background-color:rgba(0, 0, 0, 0.521);
             padding-left:5px;
             font-style:italic;
             font-size:18px;
@@ -85,18 +91,18 @@
             border-bottom-right-radius: 10px;
             border-top-right-radius: 10px;
             height:32px;
-            width: 480px;
+            width: 460px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="#">Gmail</a>
-        <a href="#">Imagens</a>
+        <a href="https://accounts.google.com/" target="_blank">Gmail</a>
+        <a href="https://www.google.com.br/imghp?hl=pt-BR&ogbl" target="_blank">Imagens</a>
     </nav>
     <main>
         <a href="#">Pesquisa Google</a>
-        <a href="#">Estou com Sorte</a>
+        <a href="https://www.google.com/doodles" target="_blank">Estou com Sorte</a>
     </main>
     <div id="divBusca">
         <input type="text" id="txtBusca" placeholder="Pesquisar"/>
@@ -104,13 +110,15 @@
     <footer>
         <p>Brasil</p>
         <br>
-        <a href="#">Sobre</a>
-        <a href="#">Publicidade</a>
-        <a href="#">Negócios</a>
-        <a href="#" style="padding: 0px 1100px 0px 15px;">Como funciona a Pesquisa</a>
-        <a href="#">Privacidade</a>
-        <a href="#">Termos</a>
-        <a href="#">Configurações</a>
+        <a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">Sobre</a>
+        <a href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Publicidade</a>
+        <a href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/" target="_blank">Negócios</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">Como funciona a Pesquisa</a>
+        <div>
+            <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1" target="_blank">Privacidade</a>
+            <a href="https://policies.google.com/terms?hl=pt-BR&fg=1" target="_blank">Termos</a>
+            <a href="#">Configurações</a>
+        </div>
     </footer>
 </body>
 </html>
